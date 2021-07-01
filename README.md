@@ -272,9 +272,19 @@ not(1 == 1) # False - becasuse same as not(True) ==> False
 
 ---
 
+## Flow control
+```python
+day = "Friday"
+myStatus = "Maried"
 
+if day == "Friday" and myStatus == "Single":
+    print("Go to party")
+elif day == "Friday" and myStatus == "Maried":
+    print("Go to romantic dinner")
+else:
+    print("Think abou your life")
+```
 
----
 ---
 
 ## Notes:
